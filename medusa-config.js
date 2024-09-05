@@ -52,6 +52,14 @@ const plugins = [
       },
     },
   },
+  {
+    resolve: `medusa-events-webhooks`,
+    options: {
+      enableUI: true,
+      TOKEN_SECRET: '1111',
+      MAX_RETRY_COUNT: 1,
+    },
+  }
 ];
 
 const modules = {
